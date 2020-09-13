@@ -1,0 +1,26 @@
+.results {
+  list-style: none;
+  margin: auto;
+}
+
+.results.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.store{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.result {
+  margin: 8px;
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
